@@ -5,6 +5,13 @@
  */
 
 // Using a for loop
+let nums = [1, 2, 3, 4, 5];
+let results = [];
+for (let num of nums) {
+  results.push(num * 2);
+}
+
+console.log(results);
 
 
 // Using map()
@@ -15,6 +22,8 @@
 
 // Simplfied w/ map() + arrow function
 
+const arrow = nums.map(num => num * 2);
+console.log(arrow);
 
 // With objects:
 const students = [
